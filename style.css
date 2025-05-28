@@ -41,6 +41,7 @@ nav a {
 nav button:hover {
     background-color: #b6f8b4;
     cursor: pointer;
+    color: #0000005e;
 }
 
 nav button {
@@ -87,7 +88,7 @@ nav button a {
     font-weight: 300;
 }
 
-.flex-child #free{
+#free {
     text-align: center;
     font-size: 18px;
     font-weight: 500;
@@ -99,7 +100,13 @@ nav button a {
     background-color: #87D68D;
 }
 
-.flex-child #demo{
+#free:hover {
+    background-color: #b6f8b4;
+    cursor: pointer;
+    color: #0000005e;
+}
+
+#demo {
     text-align: center;
     font-size: 18px;
     font-weight: 500;
@@ -109,6 +116,12 @@ nav button a {
     border-radius: 40px;
     color: white;
     background-color: transparent;
+}
+
+#demo:hover {
+    cursor: pointer;
+    border: 2px solid rgba(255, 255, 255, 0.715);
+    color: rgba(255, 255, 255, 0.715);
 }
 
 .hero {
@@ -124,6 +137,10 @@ main .first-section {
     color: #000000CF;
 }
 
+.first-section img {
+    margin-bottom: 200px;
+}
+
 .first-section h2 {
     font-size: 34px;
     margin-bottom: 40px;
@@ -134,9 +151,24 @@ main .first-section {
     padding: 0px 140px 40px
 }
 
-.first-section button {
+#learn-more {
+    font-size: 17px;
+    font-weight: 300;
     border: none;
-    background-color: #87D68D;
+    background-color: #ACF29A;
+    color: #000000CF;
     border-radius: 30px;
-    padding: 20px;
+    padding: 20px 70px;
+    margin: 60px 0px 60px;
+}
+
+#learn-more:hover {
+    background-color: #b6f8b4;
+    cursor: pointer;
+    color: #0000005e;
+}
+
+main .second-section {
+    padding: 120px 0px 0px 0px;
+    background-image: linear-gradient(to bottom, #F1FFEF, #DDEEF2);
 }
