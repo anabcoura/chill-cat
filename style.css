@@ -82,7 +82,7 @@ nav button a {
 }
 
 .flex-child p {
-    margin: 23px 0px 62px 0px;
+    margin: 23px 0px 40px 0px;
     font-size: 18px;
     color: #ffff;
     font-weight: 300;
@@ -93,7 +93,6 @@ nav button a {
     font-size: 18px;
     font-weight: 500;
     border: none;
-    margin: 0px;
     padding: 20px 30px;
     border-radius: 40px;
     color: #00000099;
@@ -169,6 +168,73 @@ main .first-section {
 }
 
 main .second-section {
-    padding: 120px 0px 0px 0px;
+    padding: 0px 0px 200px 0px;
     background-image: linear-gradient(to bottom, #F1FFEF, #DDEEF2);
+}
+
+.second-section .flex-child h1 {
+    font-size: 54px;
+    color: #000000CF
+}
+
+.second-section .flex-child p {
+    font-size: 19px;
+    font-weight: 300;
+    padding: 0px 0px 0px 0px;
+    color: #000000CF;
+}
+
+.second-section .flex-child #free {
+    font-size: 18px;
+    font-weight: 300;
+    padding: 20px 50px;
+    background-color: #ACF29A;
+    color: black;
+}
+
+.second-section .flex-child #demo {
+    border: 2px solid #007090;
+    color: #007090;
+}
+
+.second-section strong {
+    font-weight: 700;
+}
+
+.second-section .flex-child:first-child {
+    margin-right: 30px;
+}
+
+.second-section .flex-container {
+    display: flex;
+    margin-left: 200px;
+    padding-right: 150px;
+}
+
+#border {
+    margin: 50px 0px;
+    border: 1px dashed #104C2D;
+}
+
+#smaller {
+    padding: 0px 60px 0px 0px;
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.img1 {
+  position: absolute;
+  margin-top: 80px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.img2 {
+  position: relative;
+  margin-top: 80px;
+  top: 30px;
+  left: 30px;
 }
