@@ -192,9 +192,23 @@ main .second-section {
     color: black;
 }
 
+.second-section .flex-child #free:hover {
+    font-size: 18px;
+    font-weight: 300;
+    padding: 20px 50px;
+    background-color: #b6f8b4;
+    cursor: pointer;
+    color: #0000005e;
+}
+
 .second-section .flex-child #demo {
     border: 2px solid #007090;
     color: #007090;
+}
+
+.second-section .flex-child #demo:hover {
+    border: 2px solid #01a2cf;
+    color: #01a2cf;
 }
 
 .second-section strong {
