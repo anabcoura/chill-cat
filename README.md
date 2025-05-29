@@ -1,2 +1,3 @@
 # chill-cat
-Repositorio para praticar desenvolvimento de páginas web.
+
+Repositório para praticar desenvolvimento web.
