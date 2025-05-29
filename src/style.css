@@ -184,15 +184,17 @@ main .second-section {
     color: #000000CF;
 }
 
-.second-section .flex-child #free {
+.second-section .flex-child #free2 {
     font-size: 18px;
     font-weight: 300;
+    border-radius: 40px;
+    border: none;
     padding: 20px 50px;
     background-color: #ACF29A;
     color: black;
 }
 
-.second-section .flex-child #free:hover {
+.second-section .flex-child #free2:hover {
     font-size: 18px;
     font-weight: 300;
     padding: 20px 50px;
@@ -201,14 +203,20 @@ main .second-section {
     color: #0000005e;
 }
 
-.second-section .flex-child #demo {
+.second-section .flex-child #demo2 {
     border: 2px solid #007090;
+    font-size: 18px;
+    background-color: transparent;
+    border-radius: 40px;
+    padding: 20px 30px;
+    margin-left: 20px;
     color: #007090;
 }
 
-.second-section .flex-child #demo:hover {
+.second-section .flex-child #demo2:hover {
     border: 2px solid #01a2cf;
     color: #01a2cf;
+    cursor: pointer;
 }
 
 .second-section strong {
@@ -252,3 +260,4 @@ main .second-section {
   top: 30px;
   left: 30px;
 }
+
